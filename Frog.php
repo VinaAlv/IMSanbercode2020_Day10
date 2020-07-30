@@ -2,11 +2,11 @@
 class Frog extends Animal {
     public $legs=4;
 
-    function jump(){
+    public function jump(){
         echo "hop hop";
     }
 
-    function get_legs() {
+    public function get_legs() {
         return $this->legs;
     }
 
